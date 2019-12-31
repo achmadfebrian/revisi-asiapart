@@ -2,7 +2,7 @@
 <section id="home-header" class="home-header">
     <div class="top-header">
         <div class="container d-flex">
-            <a href="tel:+62215918869" class="text-secondary nav-link">
+            <a href="tel:+62215918869" class="text-secondary nav-link pl-0">
                 <img src="<?= base_url('assets/images/xd-asset/call-answer.svg') ?>" alt="phone" width="16px" class="mr-1">
                 021 5918869
             </a>
@@ -17,7 +17,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-2">
-                    <a href="#"><img src="<?= base_url('assets/images/xd-asset/Menu.png') ?>" alt="Menu"></a>
+                    <a href="#" class="menu-top-nav"><img src="<?= base_url('assets/images/xd-asset/Menu.png') ?>" alt="Menu"></a>
                 </div>
                 <div class="col-lg-8 text-center">
                     <a href="#"><img src="<?= base_url('assets/images/xd-asset/Logo.png') ?>" alt="Asiapart" width="40"></a>
@@ -66,14 +66,15 @@
                     <button class="btn btn-outline-primary mt-3">Detail product</button>
                 </div>
             </div>
+
+            <a href="#" class="slide-next" onclick="plusSlides(1)">
+                <img class="arrow-left" src="<?= base_url('assets/images/xd-asset/right-arrow.png'); ?>" alt="">
+            </a>
+            <a href="#" class="slide-prev" onclick="plusSlides(-1)">
+                <img class="arrow-right" src="<?= base_url('assets/images/xd-asset/left-arrow.png'); ?>" alt="">
+            </a>
         </div>
 
-        <a href="#" class="slide-next" onclick="plusSlides(1)">
-            <img class="arrow-left" src="<?= base_url('assets/images/xd-asset/right-arrow.png'); ?>" alt="">
-        </a>
-        <a href="#" class="slide-prev" onclick="plusSlides(-1)">
-            <img class="arrow-right" src="<?= base_url('assets/images/xd-asset/left-arrow.png'); ?>" alt="">
-        </a>
     </div>
 
     <!-- The dots/circles -->
@@ -83,10 +84,43 @@
         <span class="indicator" onclick="currentSlide(3)">03</span>
         <span class="indicator" onclick="currentSlide(4)">04</span>
     </div>
+
     <div class="more-product">
         <a href="#" class="card-link text-secondary">More product
             <img src="<?= base_url('assets/images/xd-asset/arrow.png'); ?>" alt="arrow" width="15" height="9" class="ml-2">
         </a>
     </div>
+
+    <div class="side-nav">
+        <div class="container text-light">
+            <div class="social-media">
+                <a href="#" class="d-block mb-3 text-white nav-link p-0">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#" class="d-block mb-3 text-white nav-link p-0">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#" class="d-block mb-3 text-white nav-link p-0">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+
+            <div class="side-nav-menu text-center">
+                <a href="#" class="d-block mb-3 text-light nav-link p-0">Home</a>
+                <a href="#" class="d-block mb-3 text-light nav-link p-0">Product</a>
+                <a href="#" class="d-block mb-3 text-light nav-link p-0">Gallery</a>
+                <a href="#" class="d-block mb-3 text-light nav-link p-0">Branchs</a>
+                <a href="#" class="d-block mb-3 text-light nav-link p-0">About Us</a>
+            </div>
+
+            <div class="close-icon">
+                <a href="#" class="closed-side-nav text-light">
+                    <i class="fas fa-times"></i>
+                </a>
+            </div>
+        </div>
+    </div>
 </section>
 <!-- End Header Section -->
+
+<section class="kk"></section>

@@ -9,8 +9,11 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="<?= base_url('vendor/bootstrap/css/bootstrap.min.css') ?>">
 
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="<?= base_url('vendor/fontawesome/css/all.css') ?>">
+
     <!-- My CSS -->
-    <link rel="stylesheet" href="<?= base_url('assets/css/style2.css') ?>">
+    <link rel="stylesheet" href="<?= base_url('assets/css/style.css') ?>">
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
