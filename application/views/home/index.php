@@ -123,4 +123,45 @@
 </section>
 <!-- End Header Section -->
 
-<section class="kk"></section>
+<section class="clients">
+    <div class="title-client">
+        <h3 class="p-3">
+            Our Client
+        </h3>
+    </div>
+
+    <div class="content-client">
+        <div class="container">
+            <div class="owl-carousel">
+
+                <div class="card-size">
+                    <div class="bg-border-circle">
+                        <img src="<?= base_url('assets/images/clients/PT-Autokorindo-Pratama.png') ?>" alt="image" class="client-img">
+                    </div>
+                    <div class="cb"></div>
+                </div>
+
+                <div class="card-size">
+                    <div class="bg-border-circle">
+                        <img src="<?= base_url('assets/images/clients/DID.png') ?>" alt="image" class="client-img">
+                    </div>
+                    <div class="cb"></div>
+                </div>
+
+                <div class="card-size">
+                    <div class="bg-border-circle">
+                        <img src="<?= base_url('assets/images/clients/PT-Mega-Multi-Pegas.png') ?>" alt="image" class="client-img">
+                    </div>
+                    <div class="cb"></div>
+                </div>
+
+                <div class="card-size">
+                    <div class="bg-border-circle">
+                        <img src="<?= base_url('assets/images/clients/ptt.png') ?>" alt="image" class="client-img">
+                    </div>
+                    <div class="cb"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

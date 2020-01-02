@@ -13,12 +13,16 @@
     <link rel="stylesheet" href="<?= base_url('vendor/fontawesome/css/all.css') ?>">
 
     <!-- My CSS -->
-    <link rel="stylesheet" href="<?= base_url('assets/css/style.css') ?>">
-    <link rel="stylesheet" href="<?= base_url('assets/css/md-style.css') ?>">
-    <link rel="stylesheet" href="<?= base_url('assets/css/sm-style.css') ?>">
+    <link rel="stylesheet" href="<?= base_url('assets/css/style1.css') ?>">
+    <link rel="stylesheet" href="<?= base_url('assets/css/md-style1.css') ?>">
+    <link rel="stylesheet" href="<?= base_url('assets/css/sm-style1.css') ?>">
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
+
+    <!-- Owl Css -->
+    <link rel="stylesheet" href="<?= base_url('vendor/owlcarousel/dist/assets/owl.carousel.min.css') ?>">
+    <link rel="stylesheet" href="<?= base_url('vendor/owlcarousel/dist/assets/owl.theme.default.min.css') ?>">
 
     <title><?= $title; ?></title>
 </head>

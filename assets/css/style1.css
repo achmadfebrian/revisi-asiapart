@@ -263,8 +263,96 @@
   }
 /* End Home --header */
 
-.kk {
+.clients {
     width: 100%;
-    height: 100vh;
-    background-color: brown;
+    height: 237px;
+    box-sizing: border-box;
 }
+
+.title-client {
+    position: relative;
+    float: left;
+    width: 20%;
+    height: 237px;
+    text-align: center;
+    background-color: #B2FCFF;
+}
+
+.title-client h3 {
+    position: absolute;
+    font-family: lora;
+    font-size: 32px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.content-client {
+    position: relative;
+    float: right;
+    width: 80%;
+    height: 237px;
+    background-color: #ffffff;
+}
+
+.card-size {
+    width: 100%;
+    min-height: 237px;
+}
+
+.bg-border-circle {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border: 2px solid #B2FCFF;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bg-border-circle::before {
+    content: "";
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    background-color:  #B2FCFF;
+    border-radius: 50%;
+    top: -5%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+}
+
+.bg-border-circle::after {
+    content: "";
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    background-color:  #B2FCFF;
+    border-radius: 50%;
+    top: 10%;
+    left: 3%;
+    transform: translate(-50%, -50%);
+}
+
+.client-img {
+    position: absolute;
+    width: 100px !important;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cb::before {
+    content: "";
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    background-color:  #3E64FF;
+    border-radius: 50%;
+    top: 25%;
+    left: 36%;
+    transform: translate(-50%, -50%);
+}
+
+

@@ -3,7 +3,8 @@
 <script src="<?= base_url('vendor/bootstrap/js/jquery.min.js') ?>"></script>
 <script src="<?= base_url('vendor/bootstrap/js/popper.min.js') ?>"></script>
 <script src="<?= base_url('vendor/bootstrap/js/bootstrap.min.js') ?>"></script>
-<script src="<?= base_url('assets/js/script3.js') ?>"></script>
+<script src="<?= base_url('vendor/owlcarousel/dist/owl.carousel.min.js') ?> "></script>
+<script src="<?= base_url('assets/js/script.js') ?>"></script>
 </body>
 
 </html>
