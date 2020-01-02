@@ -41,10 +41,20 @@ closedSideNav.addEventListener("click", function () {
 })
 
 window.onscroll = function () {
-    stickNav();
+    stickyNav();
 }
 
 const topNav = document.querySelector('.top-nav');
+
+const sticky = topNav.offsetTop;
+
+function stickyNav() {
+    if (window.pageYOffset >= sticky) {
+        topNav.classList.add("sticky", "fade-slider")
+    } else {
+        topNav.classList.remove("sticky", "fade-slider");
+    }
+}
 
 
 

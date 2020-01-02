@@ -1,0 +1,56 @@
+@media (max-width: 576px) {
+    /* Home header */
+    .top-header {
+        height: 20px !important;
+    }
+    .top-header .container {
+        display: none !important;
+    }
+
+    .slide-img-size {
+        width: 220px;
+    }
+
+    .text-image-header {
+        text-align: left;
+        top: 70%;
+        left: unset;
+        width: 100%;
+        transform: unset;
+    }
+
+    .text-image-header h3 {
+        font-size: 28px;
+    }
+
+    .text-image-header button {
+        display: none;
+    }
+    
+    .text-image-header::after {
+        display: none;
+    }
+    
+    .text-image-header::before {
+        display: none;
+    }
+
+    .slide-prev {
+        top: 30%;
+        right: unset;
+        left: 10%;
+    }
+
+    .slide-next {
+        top: 30%;
+        right: 5%;
+    }
+
+    .more-product {
+        bottom: 20px;
+    }
+
+    .indicators {
+        display: none;
+    }
+}

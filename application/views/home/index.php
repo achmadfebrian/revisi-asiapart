@@ -16,13 +16,13 @@
     <div class="top-nav">
         <div class="container">
             <div class="row">
-                <div class="col-lg-2">
-                    <a href="#" class="menu-top-nav"><img src="<?= base_url('assets/images/xd-asset/Menu.png') ?>" alt="Menu"></a>
+                <div class="col-lg-3 col-3">
+                    <div class="menu-top-nav"><img src="<?= base_url('assets/images/xd-asset/Menu.png') ?>" alt="Menu"></div>
                 </div>
-                <div class="col-lg-8 text-center">
+                <div class="col-lg-6 col-9 text-center">
                     <a href="#"><img src="<?= base_url('assets/images/xd-asset/Logo.png') ?>" alt="Asiapart" width="40"></a>
                 </div>
-                <div class="col-lg-2">
+                <div class="col-lg-3 text-right">
                     <button class="btn btn-primary">Asia Auto Spring</button>
                 </div>
             </div>
@@ -73,6 +73,12 @@
             <a href="#" class="slide-prev" onclick="plusSlides(-1)">
                 <img class="arrow-right" src="<?= base_url('assets/images/xd-asset/left-arrow.png'); ?>" alt="">
             </a>
+
+            <div class="more-product">
+                <a href="#" class="card-link text-secondary">More product
+                    <img src="<?= base_url('assets/images/xd-asset/arrow.png'); ?>" alt="arrow" width="15" height="9" class="ml-2">
+                </a>
+            </div>
         </div>
 
     </div>
@@ -83,12 +89,6 @@
         <span class="indicator" onclick="currentSlide(2)">02</span>
         <span class="indicator" onclick="currentSlide(3)">03</span>
         <span class="indicator" onclick="currentSlide(4)">04</span>
-    </div>
-
-    <div class="more-product">
-        <a href="#" class="card-link text-secondary">More product
-            <img src="<?= base_url('assets/images/xd-asset/arrow.png'); ?>" alt="arrow" width="15" height="9" class="ml-2">
-        </a>
     </div>
 
     <div class="side-nav">
@@ -114,9 +114,9 @@
             </div>
 
             <div class="close-icon">
-                <a href="#" class="closed-side-nav text-light">
+                <div class="closed-side-nav text-light">
                     <i class="fas fa-times"></i>
-                </a>
+                </div>
             </div>
         </div>
     </div>

@@ -14,6 +14,8 @@
 
     <!-- My CSS -->
     <link rel="stylesheet" href="<?= base_url('assets/css/style.css') ?>">
+    <link rel="stylesheet" href="<?= base_url('assets/css/md-style.css') ?>">
+    <link rel="stylesheet" href="<?= base_url('assets/css/sm-style.css') ?>">
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
