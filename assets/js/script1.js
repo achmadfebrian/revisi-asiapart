@@ -78,4 +78,21 @@ $(document).ready(function () {
     })
 });
 
+var slideUpWrapText = document.querySelector('.home-about .wrap-text');
+var slideUpImg = document.querySelector('.home-about .wrap-img-about');
+
+window.addEventListener('scroll', function () {
+    if (window.pageYOffset > 600) {
+        slideUpWrapText.style.top = '100px';
+        slideUpWrapText.style.opacity = 1;
+    }
+
+    if (window.pageYOffset > 800) {
+        slideUpImg.style.right = '200px';
+        slideUpImg.style.opacity = 1;
+    }
+});
+
+
+
 

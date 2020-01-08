@@ -1,0 +1,141 @@
+@media (max-width: 576px) {
+    /* Home header */
+    .top-header {
+        height: 20px !important;
+    }
+    .top-header .container {
+        display: none !important;
+    }
+
+    .slide-img-size {
+        width: 220px;
+    }
+
+    .text-image-header {
+        text-align: left;
+        top: 70%;
+        left: unset;
+        width: 100%;
+        transform: unset;
+    }
+
+    .text-image-header h3 {
+        font-size: 28px;
+    }
+
+    .text-image-header button {
+        display: none;
+    }
+    
+    .text-image-header::after {
+        display: none;
+    }
+    
+    .text-image-header::before {
+        display: none;
+    }
+
+    .slide-prev {
+        top: 30%;
+        right: unset;
+        left: 10%;
+    }
+
+    .slide-next {
+        top: 30%;
+        right: 5%;
+    }
+
+    .more-product {
+        bottom: 20px;
+    }
+
+    .indicators {
+        display: none;
+    }
+
+    /* About */
+    .wrap-text {
+        width: unset;
+        margin: unset;
+        margin-left: -15px;
+        padding: 60px 30px;
+    }
+    
+    .rectangle {
+        display: none;
+    }
+        
+    .wrap-text .more-product {
+        display: block;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+
+    /* About */
+    .home-about {
+        position: relative;
+        width: 100%;
+        min-height: 600px;
+        margin: 0;
+        margin-top: 80px;
+    }
+
+    
+
+    /* Quote */
+    .quote {
+        position: relative;
+        width: 100%;
+        height: 200px;
+        margin-top: 100px;
+    }
+
+    .wrap-quote {
+        position: absolute;
+        width: 80%;
+        right: 0;
+        height: 200px;
+    }
+
+    .quote-text {
+        padding: 50px 40px;
+    }
+
+    .quote-text p {
+        font-size: 14px;
+    }
+
+    
+    .call-now {
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    /* End Quote */
+
+    /* Footer */
+    .footer {
+        position: relative;
+        width: 100%;
+        margin-top: 60px;
+        background-color: #3E64FF;
+    }
+
+    .wrap-footer {
+        width: 100%;
+        height: auto;
+        padding: 20px 20px;
+    }
+    
+    .footer .col-lg-3:nth-child(1) .wrap-footer {
+        /* display: none; */
+        padding: 90px 20px;
+    }
+
+    .col-12 .wrap-footer {
+        text-align: left !important;
+    }
+    /* End Footer */
+}
