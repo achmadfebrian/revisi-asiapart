@@ -167,4 +167,36 @@
         padding: 60px 20px;
     }
     /* End Footer */
+
+    /* ------------------------------- Product---------------------------------------- */
+    .product .sidebar {
+        display: unset;
+        /* position: static; */
+        background-color: #ffffff;
+        height: auto;
+    }
+
+    .product .sidebar h2 {
+        color: #3e3e3e !important;
+    }
+    
+    .product .sidebar h6 {
+        display: none;
+    }
+
+    .product .sidebar .flex-column {
+        margin-top: 20px;
+        flex-direction: unset !important;
+        overflow-x: auto;
+    }
+
+    .product .sidebar .nav {
+        display: -webkit-box;
+        flex-wrap: unset;
+    }
+
+    .product .sidebar .flex-column .nav-link {
+        padding-right: 40px !important;
+        color: #3e3e3e !important;
+    }
 }

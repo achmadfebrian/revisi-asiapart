@@ -359,7 +359,7 @@
 .home-about {
     position: relative;
     width: 100%;
-    min-height: 100vh;
+    min-height: 600px;
     margin: 50px 0;
 }
 
@@ -552,3 +552,49 @@
     background-color: aqua;
 }
 /* End Footer */
+
+/* ------------------------------- Product---------------------------------------- */
+.product .content .card p{
+    display: inline-block;
+    max-width: 80%;
+    height: 1.5em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; 
+}
+
+.product .sidebar {
+    background-color: #3E64FF;
+    height: 100vh;
+    overflow-y: auto;
+    z-index: 100;
+}
+
+/* width */
+.product .sidebar .nav::-webkit-scrollbar {
+    width: 1px !important;
+    height: 0px;
+}
+
+/* width */
+.product .sidebar::-webkit-scrollbar {
+    width: 1px !important;
+    height: 0px;
+}
+
+.product .content {
+    background-color: #F8F8F8;
+}
+
+.product .bg-card-product {
+    background: rgb(255,255,255);
+    background: -moz-radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(128,128,128,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(128,128,128,1) 100%);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(128,128,128,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#808080",GradientType=1);
+}
+
+/* Gallery */
+.gallery-fiture {
+    min-height: 100vh;
+}

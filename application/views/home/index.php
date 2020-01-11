@@ -18,10 +18,10 @@
                     <div class="menu-top-nav"><img src="<?= base_url('assets/images/xd-asset/Menu.png') ?>" alt="Menu"></div>
                 </div>
                 <div class="col-lg-6 col-9 text-center">
-                    <a href="#"><img src="<?= base_url('assets/images/xd-asset/Logo.png') ?>" alt="Asiapart" width="40"></a>
+                    <a href="<?= base_url('home'); ?>"><img src="<?= base_url('assets/images/xd-asset/Logo.png') ?>" alt="Asiapart" width="40"></a>
                 </div>
                 <div class="col-lg-3 text-right">
-                    <button class="btn btn-primary">Asia Auto Spring</button>
+                    <a href="<?= base_url('aas'); ?>" class="btn btn-primary">Asia Auto Spring</a>
                 </div>
             </div>
         </div>
@@ -65,7 +65,7 @@
             </a>
 
             <div class="more-product">
-                <a href="#" class="card-link text-secondary">More product
+                <a href="<?= base_url('product'); ?>" class="card-link text-secondary">More product
                     <img src="<?= base_url('assets/images/xd-asset/arrow.png'); ?>" alt="arrow" width="15" height="9" class="ml-2">
                 </a>
             </div>
@@ -84,11 +84,11 @@
     <div class="side-nav">
         <div class="container text-light">
             <div class="side-nav-menu text-center">
-                <a href="#" class="d-block mb-3 text-light nav-link p-0">Home</a>
-                <a href="#" class="d-block mb-3 text-light nav-link p-0">Product</a>
-                <a href="#" class="d-block mb-3 text-light nav-link p-0">Gallery</a>
-                <a href="#" class="d-block mb-3 text-light nav-link p-0">Branchs</a>
-                <a href="#" class="d-block mb-3 text-light nav-link p-0">About Us</a>
+                <a href="<?= base_url('home'); ?>" class="d-block mb-3 text-light nav-link p-0">Home</a>
+                <a href="<?= base_url('product'); ?>" class="d-block mb-3 text-light nav-link p-0">Product</a>
+                <a href="<?= base_url('gallery'); ?>" class="d-block mb-3 text-light nav-link p-0">Gallery</a>
+                <a href="<?= base_url('branch'); ?>" class="d-block mb-3 text-light nav-link p-0">Branchs</a>
+                <a href="<?= base_url('about'); ?>" class="d-block mb-3 text-light nav-link p-0">About Us</a>
             </div>
 
             <div class="close-icon">
@@ -156,7 +156,7 @@
                     <p class="pb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet consequatur officia eum illo doloremque! Delectus repellendus nesciunt voluptatem exercitationem eveniet hic id optio earum unde minus cupiditate quam quis natus, odio tempora eligendi voluptates laboriosam magni, eum inventore consequatur? Sapiente quos minima eum reprehenderit illum eligendi, temporibus aliquid corrupti odit?</p>
 
                     <div class="more-product">
-                        <a href="#" class="card-link text-secondary">Read more
+                        <a href="<?= base_url('about'); ?>" class="card-link text-secondary">Read more
                             <img src="<?= base_url('assets/images/xd-asset/arrow.png'); ?>" alt="arrow" width="15" height="9" class="ml-2">
                         </a>
                     </div>
@@ -193,7 +193,7 @@
         </div>
 
         <div class="call-now">
-            <a href="#" class="btn btn-primary">Call now</a>
+            <a href="tel:+62215918869" class="btn btn-primary">Call now</a>
         </div>
     </div>
 </section>
