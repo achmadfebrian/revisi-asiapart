@@ -21,7 +21,7 @@
                 <a href="<?= base_url('home'); ?>" class="d-block mb-3 text-light nav-link p-0">Home</a>
                 <a href="<?= base_url('product'); ?>" class="d-block mb-3 text-light nav-link p-0">Product</a>
                 <a href="<?= base_url('gallery'); ?>" class="d-block mb-3 text-light nav-link p-0">Gallery</a>
-                <a href="<?= base_url('branch'); ?>" class="d-block mb-3 text-light nav-link p-0">Branchs</a>
+                <!-- <a href=" base_url('branch')" class="d-block mb-3 text-light nav-link p-0">Branchs</a> -->
                 <a href="<?= base_url('about'); ?>" class="d-block mb-3 text-light nav-link p-0">About Us</a>
             </div>
 

@@ -586,7 +586,7 @@
     background-color: #F8F8F8;
 }
 
-.product .bg-card-product {
+.bg-card-product {
     background: rgb(255,255,255);
     background: -moz-radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(128,128,128,1) 100%);
     background: -webkit-radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(128,128,128,1) 100%);
@@ -598,3 +598,143 @@
 .gallery-fiture {
     min-height: 100vh;
 }
+
+/* Detail Product */
+.detail .left {
+    position: relative;
+    height: 100vh;
+    background-color: #3E64FF;
+}
+
+.detail .left h3 {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: rotate(270deg);
+    color: #ffffff;
+    font-family: Georgia;
+}
+
+.img-detail {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.img-detail img {
+    width: 300px;
+    height: 300px;
+}
+
+.img-detail img {
+    position: relative;
+    z-index: 3;
+}
+
+.img-detail::after {
+    content: "";
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    background: rgb(178,252,255);
+    background: -moz-linear-gradient(180deg, rgba(178,252,255,1) 0%, rgba(62,100,255,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(178,252,255,1) 0%, rgba(62,100,255,1) 100%);
+    background: linear-gradient(180deg, rgba(178,252,255,1) 0%, rgba(62,100,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#b2fcff",endColorstr="#3e64ff",GradientType=1);
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.similar-product {
+    position: absolute;
+    bottom: 3%;
+    left: 0;
+    margin: 0 2rem;
+}
+        
+.detail .right {
+    position: relative;
+    height: 100vh;
+}
+        
+.detail .right::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+/* About */
+.about-header {
+    width: 100%;
+    height: 1100px;
+    /* background-color: teal; */
+}
+
+.text-header {
+    position: relative;
+}
+
+.about-header::after {
+    position: absolute;
+    content: "";
+    background-image: url("../images/xd-asset/about-header.png");
+    background-size: cover;
+    display: inline-block;
+    width: 100%; 
+    height: 1250px;    
+    top: 0px;
+    right: 0px;    
+    z-index: -2;
+}
+
+.about-header .text-wrap {
+    position: relative;
+    width: 50%;
+}
+
+.about-header .wrap-image {
+    position: absolute;
+    width: 50%;
+    right: 0;
+    top: 160%;
+    height: 400px;
+    background-color: #3E64FF;
+}
+
+.about-header .wrap-image .img-position {
+    position: absolute;
+    width: 100%;
+    left: -20%;
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+
+.about-header .text-wrap::after {
+    content: "";
+    position: absolute;
+    right: -70%;
+    top: 43%;
+    width: 200px;
+    height: 200px;
+    background-color: #B2FCFF;
+}
+
+.about-header .text-wrap::before {
+    content: "";
+    position: absolute;
+    background-image: url(../images/xd-asset/dots.png);
+    background-size: cover;
+    right: -80%;
+    top: 25%;
+    width: 150px;
+    height: 150px;
+}
+
+.imgVM-size {
+    width: 100%;
+}
+
+

@@ -29,7 +29,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">Alloy Wheel ZX097 LS</h5>
                                 <h6 class="card-subtitle mb-2 text-muted">Alloy Wheel</h6>
-                                <a href="#" class="card-link">Product detail</a>
+                                <a href="<?= base_url('detail') ?>" class="card-link">Product detail</a>
                             </div>
                         </div>
                     </div>
@@ -41,7 +41,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">SHOEI Advance 4T</h5>
                                 <h6 class="card-subtitle mb-2 text-muted">Oil</h6>
-                                <a href="#" class="card-link">Product detail</a>
+                                <a href="<?= base_url('detail') ?>" class="card-link">Product detail</a>
                             </div>
                         </div>
                     </div>
@@ -53,7 +53,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">Champ Chassis Grease</h5>
                                 <h6 class="card-subtitle mb-2 text-muted">Greases</h6>
-                                <a href="#" class="card-link">Product detail</a>
+                                <a href="<?= base_url('detail') ?>" class="card-link">Product detail</a>
                             </div>
                         </div>
                     </div>
@@ -65,7 +65,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">PTT Lubricants Perfotmancre</h5>
                                 <h6 class="card-subtitle mb-2 text-muted">Oil</h6>
-                                <a href="#" class="card-link">Product detail</a>
+                                <a href="<?= base_url('detail') ?>" class="card-link">Product detail</a>
                             </div>
                         </div>
                     </div>
@@ -77,7 +77,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">PTT Lubricants Perfotmancre</h5>
                                 <h6 class="card-subtitle mb-2 text-muted">Oil</h6>
-                                <a href="#" class="card-link">Product detail</a>
+                                <a href="<?= base_url('detail') ?>" class="card-link">Product detail</a>
                             </div>
                         </div>
                     </div>
@@ -89,7 +89,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">Alloy Wheel ZX097 LS</h5>
                                 <h6 class="card-subtitle mb-2 text-muted">Alloy Wheel</h6>
-                                <a href="#" class="card-link">Product detail</a>
+                                <a href="<?= base_url('detail') ?>" class="card-link">Product detail</a>
                             </div>
                         </div>
                     </div>
@@ -101,7 +101,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">SHOEI Advance 4T</h5>
                                 <h6 class="card-subtitle mb-2 text-muted">Oil</h6>
-                                <a href="#" class="card-link">Product detail</a>
+                                <a href="<?= base_url('detail') ?>" class="card-link">Product detail</a>
                             </div>
                         </div>
                     </div>
@@ -113,7 +113,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">Champ Chassis Grease</h5>
                                 <h6 class="card-subtitle mb-2 text-muted">Greases</h6>
-                                <a href="#" class="card-link">Product detail</a>
+                                <a href="<?= base_url('detail') ?>" class="card-link">Product detail</a>
                             </div>
                         </div>
                     </div>
